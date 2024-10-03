@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+    scroll-behavior: smooth;
+
+}
+
+#logo{
+   font-size: 36px;
+   font-weight: 700;
+   color: green;
+   text-shadow: 0px 1px 1px green;
+   margin-bottom: 5px;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color: green;
+    color: white;
+}
+.bar{
+    color: green;
+}
+
+/* Home section css */
+
+.home{
+    background-image: url(./homes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booknow{
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.booknow:hover{
+    background-color: blue;
+    color: white;
+}
+.changecontent::after{
+    content:"";
+    color:#fed008;
+    text-shadow:0px 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+@keyframes changetxt{
+    0%{
+        content:"Kerala"
+    }
+    10%{
+        content:"Gujarat"
+    }
+    20%{
+        content:"Rajasthan"
+    }
+    30%{
+        content:"Kedarnath"
+    }
+    40%{
+        content:"Tamil Nadu"
+    }
+    50%{
+        content:"Ooty"
+    }
+    60%{
+        content:"shimla"
+    }
+    70%{
+        content:"Meghalaya"
+    }
+    80%{
+        content:"Jaipur"
+    }
+    90%{
+        content:"Koodaikanal"
+    }
+    100%{
+        content:"Bengalore"
+    }
+}
+
+/* book section */
+
+.main-text span{
+    color:#fed008;
+    
+}
+.book{
+    background-color: rgb(241,247,248);
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow:0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none0;
+    box-shadow:0px 5px 5px -6px black;
+}
+.book .submit{
+    background-color: #fed008;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.book .submit:hover{
+    background-color: #6d5d17;
+}
+
+
+/* packages */
+
+.booknow-pack{
+    border-width: 100%;
+    border-bottom: 200%;
+    background-color: #1bb200;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    padding: 1px;
+}
+.booknow-pack:hover{
+    background-color: #8dd265;
+    color: white;
+}
+.packages .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(0,0,0,0.1)0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 20px;
+}
+.checked{
+    color: #fed008;
+}
+
+/* services css */
+
+.services{
+    background-color: rgb(241,247,248);
+}
+.services .card{
+    border-radius:10px ;
+    border: none;
+    box-shadow: rgb(0,0,0,0.1)0px 4px 12px;
+}
+.services i{
+    color: #fed008;
+}
+.services p{
+    font-weight: 600;
+}
+
+/* about section */
+
+.about{
+    background-color: rgb(241,247,248);
+}
+.about .card{
+    border-radius:15px;
+}
+#about-btn{
+    background-color: #fed008;
+    color: white;
+}
+.about.card img{
+    border-radius: 15px;
+    border: none;
+}
+#about-btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+/*footer*/
+
+.social-links i{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.social-links i:hover{
+    background-color: #fed008;
+}
